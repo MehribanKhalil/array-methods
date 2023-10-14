@@ -137,3 +137,90 @@
 // console.log(arr2)
 // console.log(arr1)
 
+
+
+// 13
+
+// const arr=[1,2,4,1,3,5,1,7,9]
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i]%2 !==0) {
+//         console.log(i)
+//     }    
+// }
+
+
+
+//14
+// const arr=[1,2,4,1,3,5,1,7,9]
+
+// for (let i = 0; i < arr.length; i++) {
+    
+//     if (arr[i]%2===0) {
+//         console.log(i)
+//     }
+// }
+
+
+//15
+
+// massivin tek indexli elementi
+
+// const arr=[1,2,4,1,3,5,1,7,9]
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (i%2!==0) {
+//         console.log(arr[i])
+//     }    
+// }
+
+
+
+//16
+// massivin cut indexli elementi
+// const arr=[1,2,4,1,3,5,1,7,9]
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (i%2===0) {
+//         console.log(arr[i]);
+//     }    
+// }
+
+
+//17
+// massivin en boyuk elementi
+
+// const arr=[1,2,4,1,3,5,1,7,9]
+
+// arr.sort((a,b)=>a-b)
+
+// const last = arr[arr.length - 1];
+
+// console.log(last)
+
+
+
+//18
+// massivin en kicik elementi
+
+// const arr=[1,2,4,1,3,5,1,7,9]
+// arr.sort((a,b)=>b-a)
+// console.log(arr[arr.length-1])
+
+
+//19
+
+// massivin cut elementlerinden en boyuk element
+
+// const arr=[1,2,4,1,3,5,1,7,9,8,4,2,4,1,34,2,1,3,1,1,1,32341]
+// arr.sort((a,b)=>a-b)
+// console.log(arr);
+
+// for (let i = arr.length; i  > 0; i-- ){
+//     if (arr[i] %2 ==0) {
+//         console.log(arr[i]);
+//         break
+//     }
+// }
+
+// console.log(arr[arr.length-1])
